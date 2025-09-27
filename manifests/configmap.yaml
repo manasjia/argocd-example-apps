@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: guestbook-config
+  namespace: guestbook
+data:
+  WELCOME_MSG: "Welcome to Guestbook App"
+
